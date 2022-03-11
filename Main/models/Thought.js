@@ -1,19 +1,19 @@
 const { Schema, model } = require('mongoose');
 const reactionSchema = require('./Reaction');
-const dateFormat = require('../utils/dateFormat');
+const formatDate = require('../utils/formatDate');
 
 const thoughtSchema = new Schema(
   {
     thoughtText: {
       type: String,
-      required: 'You need to leave a thought!',
+      required: 'You need to leave thought text between 1 and 280 characters!',
       minlength: 1,
       maxlength: 280
     },
     createdAt: {
       type: Date,
       default: Date.now,
-      get: timestamp => dateFormat(timestamp)
+      get: timestamp => formatDate(timestamp)
     },
     username: {
       type: String,
