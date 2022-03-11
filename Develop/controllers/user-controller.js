@@ -76,7 +76,7 @@ const userController = {
         return Thought.deleteMany({ _id: { $in: dbUserData.thoughts } });
       })
       .then(() => {
-        res.json({ message: 'Looks like this user id does not exist!' });
+        res.json({ message: 'Successfully deleted' });
       })
       .catch((err) => {
         console.log(err);
