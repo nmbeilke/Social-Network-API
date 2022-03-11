@@ -38,7 +38,7 @@ Connecting to Mongo.
   
  
  ## Usage
- This application has not been deployed. An overview video of the GET, POST, PUT and Delete routes being used in Insomnia locally is linked below.
+ This application has not been deployed. An overview video of the GET, POST, PUT and DELETE routes being used in Insomnia locally is linked below.
  Link to walkthrough video: https://drive.google.com/file/d/1ECkQlrDVFJRSmjjNq-j3cLlg9HeXruWe/view
 
 
