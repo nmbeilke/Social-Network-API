@@ -1,4 +1,4 @@
-# Homework-Social-Network-API
+# Social-Network-API
 An API for a social network web application using Express.js, MongoDB, and Mongoose. 
 
 Our task was to build an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. We used Express.js for routing, a MongoDB database, and the Mongoose ODM. 
